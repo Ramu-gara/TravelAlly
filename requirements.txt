@@ -1,0 +1,7 @@
+crewai
+crewai-tools
+streamlit
+python-dotenv
+requests
+folium
+streamlit-folium

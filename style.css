@@ -1,0 +1,103 @@
+/* Main page styling */
+.main {
+    background-color: #17181a;
+}
+
+/* Header styling */
+.stTitle {
+    color: #094f6b;
+    font-family: 'Helvetica Neue', sans-serif;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #3b82f6;
+}
+
+/* Sidebar styling */
+[data-testid="stSidebar"] {
+    background-color: #087397;
+    padding: 2rem 1rem;
+    border-radius: 0 10px 10px 0;
+}
+
+[data-testid="stSidebar"] .stTitle, 
+[data-testid="stSidebar"] .stSubheader,
+[data-testid="stSidebar"] label {
+    color: white !important;
+}
+
+/* Button styling */
+.stButton > button {
+    background-color: #3b82f6;
+    color: white;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: #1e3a8a;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Card styling for day tabs */
+.stTabs [data-baseweb="tab-panel"] {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    margin-top: 1rem;
+}
+
+/* Metrics styling */
+[data-testid="stMetric"] {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+[data-testid="stMetricLabel"] {
+    color: #6b7280;
+}
+
+[data-testid="stMetricValue"] {
+    color: #1e3a8a;
+    font-weight: bold;
+}
+
+/* Input fields styling */
+[data-testid="stTextInput"] > div > div > input {
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+}
+
+/* Checkbox styling */
+[data-testid="stCheckbox"] {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 0.5rem;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+/* Date input styling */
+[data-testid="stDateInput"] > div {
+    border-radius: 8px;
+}
+
+/* Info boxes */
+.stInfo {
+    background-color: #dbeafe;
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 4px solid #3b82f6;
+}
+
+/* Success message */
+.stSuccess {
+    background-color: #333333;
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 4px solid #22c55e;
+}

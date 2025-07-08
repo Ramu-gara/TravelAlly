@@ -37,6 +37,15 @@ AI-driven itinerary collaboration for group travel.
 Enhanced budget optimization with real-time currency conversion.
 Voice-enabled assistant for on-the-go travel guidance.
 
+
+# Architecture
+<img width="1214" alt="image" src="https://github.com/user-attachments/assets/d4948c62-a46c-4bc5-8df9-963f66b43ed4" />
+
+# SampleOutput
+<img width="1217" alt="image" src="https://github.com/user-attachments/assets/ed796bcf-e310-4e66-bf61-79a098aa7b2f" />
+
+
+
 # Impact
 Travel Ally simplifies itinerary planning by removing the need for manual research and complex AI prompts. It adapts in real time, ensuring a hassle-free and well-optimized travel experience.
 
